@@ -1,4 +1,4 @@
-kio-extras (4:4.97.0-0ubuntu1) UNRELEASED; urgency=medium
+kio-extras (4:4.97.0a-0ubuntu1) UNRELEASED; urgency=medium
 
   [ Scarlett Clark ]
   * Initial release.
@@ -7,8 +7,9 @@ kio-extras (4:4.97.0-0ubuntu1) UNRELEASED; urgency=medium
   * New upstream beta release
 
   [ Scarlett Clark ]
-  * Patch tar to resolve double addsubdirectory
+  * remove patch and use new tar
   * add optional build depends. 
   * Fix install file 
+  * change arch to all data package
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 09 Jun 2014 10:25:09 +0100

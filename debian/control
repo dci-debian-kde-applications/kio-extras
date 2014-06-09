@@ -82,7 +82,7 @@ Description: Extra functionality for kioslaves.
 
 Package: kio-extras-data
 Section: libs
-Architecture: any
+Architecture: all
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: Extra functionality for kioslaves data files.
  A kioslave is a plugin designed to be intimately familiar with a certian
