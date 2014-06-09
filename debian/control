@@ -68,7 +68,7 @@ Vcs-Bzr: https://code.launchpad.net/~kubuntu-packagers/kubuntu-packaging/kio-ext
 Package: kio-extras
 Section: utils
 Architecture: any
-Depends: kio-extras-data (= ${binary:Version}),
+Depends: kio-extras-data (= ${source:Version}),
          ${misc:Depends},
          ${shlibs:Depends}
 Description: Extra functionality for kioslaves.
