@@ -9,6 +9,8 @@ Build-Depends: cmake,
                kio-dev (>= 4.100.0),
                kgendesignerplugin (>= 4.100.0),
                kinit-dev (>= 4.100.0),
+               libbz2-dev,
+               libexiv2-dev,
                libkf5attica-dev (>= 4.100.0),
                libkf5auth-dev (>= 4.100.0),
                libkf5bookmarks-dev (>= 4.100.0),
@@ -48,8 +50,15 @@ Build-Depends: cmake,
                libkf5xmlgui-dev (>= 4.100.0),
                libjpeg-dev,
                liblzma-dev,
+               libopenexr-dev,
+               libphonon4qt5-dev,
+               libphonon4qt5experimental-dev,
+               libslp-dev,
+               libssh-dev,
+               pkg-config,
                pkg-kde-tools,
-               qtbase5-dev
+               qtbase5-dev,
+               libsmbclient-dev
 Standards-Version: 3.9.5
 Section: libs
 Homepage: https://projects.kde.org/projects/kde/workspace/kio-extras

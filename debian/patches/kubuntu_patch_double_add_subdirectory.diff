@@ -1,0 +1,13 @@
+Index: kio-extras-4.97.0/CMakeLists.txt
+===================================================================
+--- kio-extras-4.97.0.orig/CMakeLists.txt
++++ kio-extras-4.97.0/CMakeLists.txt
+@@ -92,7 +92,7 @@ else()
+     # FIXME: on windows we ignore support until trash gets integrated
+ endif()
+ 
+-add_subdirectory( doc )
++#add_subdirectory( doc )
+ 
+ add_subdirectory( bookmarks )
+ add_subdirectory( filter )
