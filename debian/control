@@ -56,7 +56,7 @@ Build-Depends: cmake,
                libslp-dev,
                libssh-dev,
                pkg-config,
-               pkg-kde-tools,
+               pkg-kde-tools (>= 0.15.15ubuntu1~),
                qtbase5-dev,
                libsmbclient-dev
 Standards-Version: 3.9.5
