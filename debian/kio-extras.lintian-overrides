@@ -1,2 +1,2 @@
 kio-extras: package-name-doesnt-match-sonames libmolletnetwork5
-
+kio-extras: binary-without-manpage usr/bin/ktrash5
