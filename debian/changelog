@@ -10,6 +10,10 @@ kio-extras (4:5.0.95-0ubuntu1) UNRELEASED; urgency=medium
     + Fix a short license name in copyright to enable standard license
       identification
 
+  [ Scarlett Clark ]
+  * cherry-pick 2e86138c30e820bccc4d13e5329d1008f9ccce1b due to 
+    kio trash changes upstream. 
+
  -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 01 Oct 2014 15:26:43 +0200
 
 kio-extras (4:5.0.2-0ubuntu1) utopic; urgency=medium
