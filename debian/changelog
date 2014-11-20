@@ -1,3 +1,15 @@
+kio-extras (4:5.1.1-0ubuntu2) vivid; urgency=medium
+
+  * SECURITY UPDATE: Insufficient Input Validation By IO Slaves and
+    Webkit Part
+   - Add upstream_CVE-2014-8600.diff to escape protocol twice: once
+     for i18n, and once for HTML
+   - https://www.kde.org/info/security/advisory-20141113-1.txt
+   - CVE-2014-8600
+   - LP: #1393479
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Tue, 18 Nov 2014 10:08:55 +0100
+
 kio-extras (4:5.1.1-0ubuntu1) vivid; urgency=medium
 
   * New upstream release.
