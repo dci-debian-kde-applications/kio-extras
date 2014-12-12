@@ -1,6 +1,7 @@
 kio-extras (4:5.1.2-0ubuntu1) UNRELEASED; urgency=medium
 
   * New upstream release
+  * Remove upstream_CVE-2014-8600.diff
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Fri, 12 Dec 2014 14:36:08 +0100
 
