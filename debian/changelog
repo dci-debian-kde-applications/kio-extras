@@ -1,3 +1,9 @@
+kio-extras (4:5.1.2-0ubuntu1) UNRELEASED; urgency=medium
+
+  * New upstream release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Fri, 12 Dec 2014 14:36:08 +0100
+
 kio-extras (4:5.1.1-0ubuntu2) vivid; urgency=medium
 
   * SECURITY UPDATE: Insufficient Input Validation By IO Slaves and
