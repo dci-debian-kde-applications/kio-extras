@@ -1,3 +1,9 @@
+kio-extras (4:5.1.95-0ubuntu3) vivid; urgency=medium
+
+  * Break old version of kio-mtp
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 19 Jan 2015 14:41:08 +0100
+
 kio-extras (4:5.1.95-0ubuntu2) vivid; urgency=medium
 
   * Repleace/conflict kio-mtp
