@@ -56,8 +56,8 @@ Package: kio-extras-data
 Section: libs
 Architecture: all
 Depends: ${misc:Depends}, ${shlibs:Depends}
-Replaces: kio-mtp (<= 0.75+git20140304-1)
-Conflicts: kio-mtp (<= 0.75+git20140304-1)
+Replaces: kio-mtp (<< 0.75+git20140304-1ubuntu1)
+Breaks: kio-mtp (<< 0.75+git20140304-1ubuntu1)
 Description: Extra functionality for kioslaves data files.
  A kioslave is a plugin designed to be intimately familiar with a certian
  protocol, so that a standardized interface can be used to get at data from
