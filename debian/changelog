@@ -9,6 +9,7 @@ kio-extras (4:5.2.0-1~) UNRELEASED; urgency=medium
   * Update build dependencies to build against experimental and to
     follow cmake.
   * Bump Standards-Version to 3.9.6, no changes needed.
+  * Update copyright information.
 
  -- Maximiliano Curia <maxy@debian.org>  Tue, 10 Feb 2015 16:57:37 +0100
 
