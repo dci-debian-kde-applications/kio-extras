@@ -1,4 +1,4 @@
-kio-extras (4:5.2.0-1~) UNRELEASED; urgency=medium
+kio-extras (4:5.2.0-1) experimental; urgency=medium
 
   [ Harald Sitter ]
   * Fix relationship with kio-mtp to support backports
@@ -12,7 +12,7 @@ kio-extras (4:5.2.0-1~) UNRELEASED; urgency=medium
   * Update copyright information.
   * Update install files.
 
- -- Maximiliano Curia <maxy@debian.org>  Tue, 10 Feb 2015 16:57:37 +0100
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 10 Feb 2015 18:36:37 +0100
 
 kio-extras (4:5.2.0-0ubuntu1) vivid; urgency=medium
 
