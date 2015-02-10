@@ -5,6 +5,7 @@ kio-extras (4:5.2.0-1~) UNRELEASED; urgency=medium
 
   [ Maximiliano Curia ]
   * Prepare initial Debian release.
+  * Add myself as Uploader.
 
  -- Maximiliano Curia <maxy@debian.org>  Tue, 10 Feb 2015 16:57:37 +0100
 
