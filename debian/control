@@ -1,5 +1,6 @@
 Source: kio-extras
-Priority: extra
+Section: kde
+Priority: optional
 Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Build-Depends: cmake,
                debhelper (>= 9.0.0),
@@ -32,13 +33,11 @@ Build-Depends: cmake,
                pkg-config,
                pkg-kde-tools (>= 0.15.15ubuntu1~)
 Standards-Version: 3.9.5
-Section: libs
 Homepage: https://projects.kde.org/projects/kde/workspace/kio-extras
 Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/plasma/kio-extras.git
 Vcs-Git: git://anonscm.debian.org/pkg-kde/plasma/kio-extras.git
 
 Package: kio-extras
-Section: utils
 Architecture: any
 Depends: kio-extras-data (= ${source:Version}),
          ${misc:Depends},
@@ -53,7 +52,6 @@ Description: Extra functionality for kioslaves.
  This package is part of the KDE base workspace module.
 
 Package: kio-extras-data
-Section: libs
 Architecture: all
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Replaces: kio-mtp (<< 0.75+git20140304-1ubuntu1~)
@@ -69,9 +67,10 @@ Description: Extra functionality for kioslaves data files.
 
 Package: kio-extras-dbg
 Section: debug
+Priority: extra
 Architecture: any
-Recommends: qtbase5-dbg
 Depends: kio-extras (= ${binary:Version}), ${misc:Depends}
+Recommends: qtbase5-dbg
 Description: Extra functionality for kioslaves debug files.
  A kioslave is a program designed to be intimately familiar with a certian
  protocol, so that a standardized interface can be used to get at data from
