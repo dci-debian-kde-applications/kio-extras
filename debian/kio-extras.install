@@ -1,2 +1,3 @@
-usr/lib/*/libmolletnetwork.so.*
+usr/lib/*/libmolletnetwork.so.5
+usr/lib/*/libmolletnetwork.so.5.*
 usr/lib/*/qt5
