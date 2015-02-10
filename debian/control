@@ -35,7 +35,7 @@ Build-Depends: cmake,
                pkg-config,
                pkg-kde-tools (>= 0.15.15ubuntu1~),
                shared-mime-info
-Standards-Version: 3.9.5
+Standards-Version: 3.9.6
 Homepage: https://projects.kde.org/projects/kde/workspace/kio-extras
 Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/plasma/kio-extras.git
 Vcs-Git: git://anonscm.debian.org/pkg-kde/plasma/kio-extras.git
