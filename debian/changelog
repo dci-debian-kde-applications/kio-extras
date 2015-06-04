@@ -1,8 +1,8 @@
 kio-extras (4:5.3.1-0ubuntu1) UNRELEASED; urgency=medium
 
-  * Vivid backport.
+  * New upstream release
 
- -- Scarlett Clark <sgclark@kubuntu.org>  Wed, 27 May 2015 17:49:58 -0700
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Thu, 04 Jun 2015 21:00:29 +0200
 
 kio-extras (4:5.3.0-0ubuntu1) UNRELEASED; urgency=medium
 
