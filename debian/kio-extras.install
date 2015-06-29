@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-=======
->>>>>>> master
-usr/lib/*/libmolletnetwork5.so.*
 usr/lib/*/libmolletnetwork5.so.5
 usr/lib/*/libmolletnetwork5.so.5.*
 usr/lib/*/qt5
