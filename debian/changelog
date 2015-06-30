@@ -4,24 +4,11 @@ kio-extras (4:5.3.2-1~) UNRELEASED; urgency=medium
 
  -- Maximiliano Curia <maxy@debian.org>  Tue, 30 Jun 2015 12:24:17 +0200
 
-kio-extras (4:5.3.2-0ubuntu1) UNRELEASED; urgency=medium
-
-  * New upstream release
-
- -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 29 Jun 2015 17:27:09 +0200
-
 kio-extras (4:5.3.1-0ubuntu1) wily; urgency=medium
 
   * New upstream release
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Fri, 05 Jun 2015 02:30:32 +0200
-
-kio-extras (4:5.3.0-0ubuntu1) UNRELEASED; urgency=medium
-
-  * beta release
-  * new upstream release
-
- -- Jonathan Riddell <jriddell@ubuntu.com>  Thu, 23 Apr 2015 17:00:21 +0200
 
 kio-extras (4:5.3.1-1) unstable; urgency=medium
 
@@ -116,13 +103,6 @@ kio-extras (4:5.1.1-0ubuntu1) vivid; urgency=medium
 
   * New upstream release.
 
- -- Scarlett Clark <sgclark@kubuntu.org>  Mon, 10 Nov 2014 19:44:44 +0100
-
-kio-extras (4:5.1.0.1-0ubuntu1) UNRELEASED; urgency=medium
-
-  [ Jonathan Riddell ]
-  * New upstream beta release
-
   [ Harald Sitter ]
   * Lintian cleanup
     + Linitian override manpage warning for ktrash5 (we do not generally
@@ -131,14 +111,14 @@ kio-extras (4:5.1.0.1-0ubuntu1) UNRELEASED; urgency=medium
       identification
 
   [ Scarlett Clark ]
-  * cherry-pick 2e86138c30e820bccc4d13e5329d1008f9ccce1b due to 
-    kio trash changes upstream. 
+  * cherry-pick 2e86138c30e820bccc4d13e5329d1008f9ccce1b due to
+    kio trash changes upstream.
 
   [ Jonathan Riddell ]
   * New upstream release
   * New upstream release with fixed tar
 
- -- Jonathan Riddell <jriddell@ubuntu.com>  Tue, 14 Oct 2014 13:48:15 +0200
+ -- Scarlett Clark <sgclark@kubuntu.org>  Mon, 10 Nov 2014 19:44:44 +0100
 
 kio-extras (4:5.0.2-0ubuntu1) utopic; urgency=medium
 
@@ -147,7 +127,7 @@ kio-extras (4:5.0.2-0ubuntu1) utopic; urgency=medium
 
   [ Scarlett Clark ]
   * New upstream release
-  * Remove no-human-maintainers lintian-override per ScottK. 
+  * Remove no-human-maintainers lintian-override per ScottK.
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Wed, 17 Sep 2014 18:15:25 -0700
 
@@ -180,8 +160,8 @@ kio-extras (4:4.97.0a-0ubuntu1) utopic; urgency=medium
 
   [ Scarlett Clark ]
   * remove patch and use new tar
-  * add optional build depends. 
-  * Fix install file 
+  * add optional build depends.
+  * Fix install file
   * change arch to all data package
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 09 Jun 2014 10:25:09 +0100
