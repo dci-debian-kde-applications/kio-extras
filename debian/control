@@ -34,7 +34,7 @@ Build-Depends: cmake (>= 2.8.12~),
                libsmbclient-dev,
                libssh-dev (>= 0.6.0),
                pkg-config,
-               pkg-kde-tools (>= 0.15.15ubuntu1~),
+               pkg-kde-tools (>= 0.15.18~),
                qtbase5-dev (>= 5.4.0~),
                shared-mime-info
 Standards-Version: 3.9.6
@@ -59,8 +59,8 @@ Description: Extra functionality for kioslaves.
 Package: kio-extras-data
 Architecture: all
 Depends: ${misc:Depends}, ${shlibs:Depends}
-Replaces: kio-mtp (<< 0.75+git20140304-1ubuntu1~)
-Breaks: kio-mtp (<< 0.75+git20140304-1ubuntu1~)
+Replaces: kio-mtp (<< 0.75+git20140304-1ubuntu1~), ${kde-l10n:all}
+Breaks: kio-mtp (<< 0.75+git20140304-1ubuntu1~), ${kde-l10n:all}
 Description: Extra functionality for kioslaves data files.
  A kioslave is a plugin designed to be intimately familiar with a certian
  protocol, so that a standardized interface can be used to get at data from
