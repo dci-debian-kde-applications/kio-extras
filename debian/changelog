@@ -1,3 +1,9 @@
+kio-extras (4:15.08.2-1~) UNRELEASED; urgency=medium
+
+  * New upstream release (15.08.2).
+
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 12 Oct 2015 15:33:38 +0200
+
 kio-extras (4:15.08.0-1) unstable; urgency=medium
 
   * New upstream release (15.08.0).
