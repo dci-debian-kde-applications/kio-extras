@@ -5,6 +5,13 @@ kio-extras (4:15.12.1-1) experimental; urgency=medium
 
  -- Maximiliano Curia <maxy@debian.org>  Mon, 01 Feb 2016 10:24:19 +0100
 
+kio-extras (4:15.08.3-2) unstable; urgency=medium
+
+  * Team upload.
+  * Drop build-dependency on libslp-dev. (Closes: #815361)
+
+ -- Felix Geyer <fgeyer@debian.org>  Tue, 23 Feb 2016 20:36:37 +0100
+
 kio-extras (4:15.08.3-1) unstable; urgency=medium
 
   * New upstream release (15.08.3).
