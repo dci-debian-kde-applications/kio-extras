@@ -47,7 +47,7 @@ Depends: kio-extras-data (= ${source:Version}),
          ${misc:Depends},
          ${shlibs:Depends}
 Description: Extra functionality for kioslaves.
- A kioslave is a plugin designed to be intimately familiar with a certian
+ A kioslave is a plugin designed to be intimately familiar with a certain
  protocol, so that a standardized interface can be used to get at data from
  any number of places.  A few examples are the http and ftp kioslaves,
  which using nearly identical methods will retrieve data from an http or
@@ -61,7 +61,7 @@ Depends: ${misc:Depends}, ${shlibs:Depends}
 Replaces: kio-mtp (<< 0.75+git20140304-1ubuntu1~), ${kde-l10n:all}
 Breaks: kio-mtp (<< 0.75+git20140304-1ubuntu1~), ${kde-l10n:all}
 Description: Extra functionality for kioslaves data files.
- A kioslave is a plugin designed to be intimately familiar with a certian
+ A kioslave is a plugin designed to be intimately familiar with a certain
  protocol, so that a standardized interface can be used to get at data from
  any number of places.  A few examples are the http and ftp kioslaves,
  which using nearly identical methods will retrieve data from an http or
@@ -76,7 +76,7 @@ Architecture: any
 Depends: kio-extras (= ${binary:Version}), ${misc:Depends}
 Recommends: qtbase5-dbg
 Description: Extra functionality for kioslaves debug files.
- A kioslave is a program designed to be intimately familiar with a certian
+ A kioslave is a program designed to be intimately familiar with a certain
  protocol, so that a standardized interface can be used to get at data from
  any number of places.  A few examples are the http and ftp kioslaves,
  which using nearly identical methods will retrieve data from an http or
