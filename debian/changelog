@@ -1,8 +1,8 @@
-kio-extras (4:15.12.1-1ubuntu1) UNRELEASED; urgency=medium
+kio-extras (4:15.12.1-1ubuntu1) xenial; urgency=medium
 
   * Debian merge: No remaining changes. 
 
- -- Scarlett Clark <sgclark@kubuntu.org>  Fri, 05 Feb 2016 10:46:48 -0800
+ -- Scarlett Clark <sgclark@kubuntu.org>  Wed, 09 Mar 2016 10:47:41 +0100
 
 kio-extras (4:15.12.1-1) experimental; urgency=medium
 
