@@ -1,3 +1,11 @@
+kio-extras (4:15.12.3-1~1.gbpd61ed7) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @d61ed7ca1ff86ade4a32a2be9f8a539bab1ded43 **
+
+  * Bump Standards-Version to 3.9.8
+
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Wed, 13 Apr 2016 12:22:28 +0200
+
 kio-extras (4:15.12.1-1) experimental; urgency=medium
 
   * New upstream release (15.12.0).
