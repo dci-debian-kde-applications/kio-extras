@@ -47,6 +47,8 @@ Architecture: any
 Depends: kio-extras-data (= ${source:Version}),
          ${misc:Depends},
          ${shlibs:Depends}
+Breaks: kactivities
+Replaces: kactivities
 Description: Extra functionality for kioslaves.
  A kioslave is a plugin designed to be intimately familiar with a certain
  protocol, so that a standardized interface can be used to get at data from
@@ -59,8 +61,8 @@ Description: Extra functionality for kioslaves.
 Package: kio-extras-data
 Architecture: all
 Depends: ${misc:Depends}, ${shlibs:Depends}
-Replaces: kio-mtp (<< 0.75+git20140304-1ubuntu1~), ${kde-l10n:all}
-Breaks: kio-mtp (<< 0.75+git20140304-1ubuntu1~), ${kde-l10n:all}
+Breaks: kactivities, kio-mtp (<< 0.75+git20140304-1ubuntu1~), ${kde-l10n:all}
+Replaces: kactivities, kio-mtp (<< 0.75+git20140304-1ubuntu1~), ${kde-l10n:all}
 Description: Extra functionality for kioslaves data files.
  A kioslave is a plugin designed to be intimately familiar with a certain
  protocol, so that a standardized interface can be used to get at data from
