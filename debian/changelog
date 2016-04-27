@@ -1,11 +1,21 @@
-kio-extras (4:16.04.0-1~1.gbp5e6a16) UNRELEASED; urgency=medium
+kio-extras (4:16.04.0-1~2.gbp0214c1) UNRELEASED; urgency=medium
 
+  ** SNAPSHOT build @0214c101de5bffeb8787f2510183927285430d37 **
+
+  [ Automatic packaging ]
   ** SNAPSHOT build @5e6a16430c8db41e607172ce5de1857319f9441c **
 
   * Bump Standards-Version to 3.9.8
   * Update build-deps and deps with the info from cmake
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Thu, 21 Apr 2016 05:21:12 +0200
+  [ Maximiliano Curia ]
+  * New upstream release (15.12.2).
+  * Replace the "Historical name" ddeb-migration by its "Modern, clearer" replacement dbgsym-migration.
+  * Add upstream metadata (DEP-12)
+  * debian/control: Update Vcs-Browser and Vcs-Git fields
+  * Add missing breaks/replaces against kactivities
+
+ -- Maximiliano Curia <maxy@gnuservers.com.ar>  Wed, 27 Apr 2016 08:42:59 +0200
 
 kio-extras (4:15.12.1-1) experimental; urgency=medium
 
