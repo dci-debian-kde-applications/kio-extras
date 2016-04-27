@@ -1,3 +1,12 @@
+kio-extras (4:16.04.0-1~1.gbp5e6a16) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @5e6a16430c8db41e607172ce5de1857319f9441c **
+
+  * Bump Standards-Version to 3.9.8
+  * Update build-deps and deps with the info from cmake
+
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Thu, 21 Apr 2016 05:21:12 +0200
+
 kio-extras (4:15.12.2-1~) UNRELEASED; urgency=medium
 
   * New upstream release (15.12.2).
