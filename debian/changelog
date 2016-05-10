@@ -1,6 +1,6 @@
-kio-extras (4:16.04.0-1~2.gbp0214c1) UNRELEASED; urgency=medium
+kio-extras (4:16.04.1-1~1.gbpc610f2) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @0214c101de5bffeb8787f2510183927285430d37 **
+  ** SNAPSHOT build @c610f2d64dbabc26244b8d534858d7f57bbc7067 **
 
   [ Automatic packaging ]
   ** SNAPSHOT build @5e6a16430c8db41e607172ce5de1857319f9441c **
@@ -14,8 +14,9 @@ kio-extras (4:16.04.0-1~2.gbp0214c1) UNRELEASED; urgency=medium
   * Add upstream metadata (DEP-12)
   * debian/control: Update Vcs-Browser and Vcs-Git fields
   * Add missing breaks/replaces against kactivities
+  * UNRELEASED
 
- -- Maximiliano Curia <maxy@gnuservers.com.ar>  Wed, 27 Apr 2016 08:42:59 +0200
+ -- Maximiliano Curia <jenkins@amadeus.gnuservers.com.ar>  Tue, 10 May 2016 23:21:14 +0200
 
 kio-extras (4:15.12.1-1) experimental; urgency=medium
 
