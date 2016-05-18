@@ -1,3 +1,9 @@
+kio-extras (4:16.04.1-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Wed, 18 May 2016 18:16:36 +0200
+
 kio-extras (4:16.04.0-1~1.gbp5e6a16) UNRELEASED; urgency=medium
 
   ** SNAPSHOT build @5e6a16430c8db41e607172ce5de1857319f9441c **
