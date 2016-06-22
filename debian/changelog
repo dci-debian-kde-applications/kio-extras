@@ -1,10 +1,8 @@
-kio-extras (4:16.04.2-1~1.gbpac4d6e) UNRELEASED; urgency=medium
+kio-extras (4:16.04.2-1) unstable; urgency=medium
 
-  ** SNAPSHOT build @ac4d6e01c149b5f49832bf8c0dd64388e16fc657 **
+  * New upstream release.
 
-  * UNRELEASED
-
- -- Maximiliano Curia <jenkins@gnuservers.com.ar>  Wed, 15 Jun 2016 05:21:10 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 22 Jun 2016 21:09:22 +0200
 
 kio-extras (4:16.04.1-1) unstable; urgency=medium
 
