@@ -1,11 +1,17 @@
-kio-extras (4:16.08.0-1~1.gbp5e052a) UNRELEASED; urgency=medium
+kio-extras (4:16.08.1-1~1.gbp8ed64d) UNRELEASED; urgency=medium
 
+  ** SNAPSHOT build @8ed64db6e67a5f51af74ff8c6d49c99f28d97c9b **
+
+  [ Maximiliano Curia ]
   ** SNAPSHOT build @5e052a30a4b7a9f6f0a6e789d11b63510706d055 **
 
   * UNRELEASED
   * UNRELEASED
 
- -- Maximiliano Curia <jenkins@gnuservers.com.ar>  Thu, 18 Aug 2016 23:21:13 +0200
+  [ Automatic packaging ]
+  * Update build-deps and deps with the info from cmake
+
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Thu, 08 Sep 2016 23:21:36 +0200
 
 kio-extras (4:16.04.2-1) unstable; urgency=medium
 
