@@ -1,18 +1,12 @@
-kio-extras (4:16.08.2-1~1.gbp55d23f) UNRELEASED; urgency=medium
-
-  ** SNAPSHOT build @55d23f95225d4c91a40d722576f487f4a1653535 **
+kio-extras (4:16.08.2-1) unstable; urgency=medium
 
   [ Maximiliano Curia ]
-  ** SNAPSHOT build @5e052a30a4b7a9f6f0a6e789d11b63510706d055 **
-
-  * UNRELEASED
-  * UNRELEASED
+  * New upstream release (16.08.2)
 
   [ Automatic packaging ]
   * Update build-deps and deps with the info from cmake
-  * Update build-deps and deps with the info from cmake
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Thu, 13 Oct 2016 23:21:24 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 17 Oct 2016 23:33:54 +0200
 
 kio-extras (4:16.04.2-1) unstable; urgency=medium
 
