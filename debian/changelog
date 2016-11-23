@@ -1,10 +1,8 @@
-kio-extras (4:16.08.3-1~1.gbp86f533) UNRELEASED; urgency=medium
+kio-extras (4:16.08.3-1) unstable; urgency=medium
 
-  ** SNAPSHOT build @86f53372aef1c0de3b72f29371b55ed5a061c8bc **
+  * New upstream release (16.08.3)
 
-  * UNRELEASED
-
- -- Maximiliano Curia <jenkins@gnuservers.com.ar>  Thu, 10 Nov 2016 23:21:22 +0100
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 23 Nov 2016 21:11:27 +0100
 
 kio-extras (4:16.08.2-1) unstable; urgency=medium
 
