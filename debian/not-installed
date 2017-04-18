@@ -1,2 +1,2 @@
-./usr/lib/i386-linux-gnu/libmolletnetwork.so
-./usr/lib/x86_64-linux-gnu/libmolletnetwork.so
+./usr/lib/*/libmolletnetwork.so
+./usr/lib/*/libkioarchive.so
