@@ -1,2 +1,6 @@
-./usr/lib/i386-linux-gnu/libmolletnetwork.so
-./usr/lib/x86_64-linux-gnu/libmolletnetwork.so
+./usr/include/KF5/kio_archivebase.h
+./usr/include/KF5/libkioarchive_export.h
+./usr/lib/x86_64-linux-gnu/cmake/KioArchive/KioArchiveConfig.cmake
+./usr/lib/x86_64-linux-gnu/cmake/KioArchive/KioArchiveConfigVersion.cmake
+./usr/lib/x86_64-linux-gnu/cmake/KioArchive/KioArchiveTargets.cmake
+./usr/lib/x86_64-linux-gnu/cmake/KioArchive/KioArchiveTargets-debian.cmake
