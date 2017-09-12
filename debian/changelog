@@ -1,11 +1,12 @@
-kio-extras (4:17.08.1-1~) UNRELEASED; urgency=medium
+kio-extras (4:17.08.1-1) experimental; urgency=medium
 
   * New upstream release (17.08.1)
   * Bump Standards-Version to 4.1.0.
   * Update upstream metadata
   * Update build-deps and deps with the info from cmake
+  * Release to experimental
 
- -- Maximiliano Curia <maxy@debian.org>  Fri, 08 Sep 2017 17:06:57 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 12 Sep 2017 15:35:51 +0200
 
 kio-extras (4:17.08.1-0neon) xenial; urgency=medium
 
