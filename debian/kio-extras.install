@@ -1,5 +1,4 @@
 usr/lib/*/libkioarchive.so.5
 usr/lib/*/libkioarchive.so.5.*
-usr/lib/*/libmolletnetwork5.so.17
-usr/lib/*/libmolletnetwork5.so.17.*
+usr/lib/*/libmolletnetwork5.so.*
 usr/lib/*/qt5
