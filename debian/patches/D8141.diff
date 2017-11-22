@@ -1,0 +1,70 @@
+diff --git a/smb/kio_smb_browse.cpp b/smb/kio_smb_browse.cpp
+--- a/smb/kio_smb_browse.cpp
++++ b/smb/kio_smb_browse.cpp
+@@ -175,18 +175,22 @@
+ {
+     qCDebug(KIO_SMB) << "checkURL " << kurl;
+     QString surl = kurl.url();
++    //transform any links in the form smb:/ into smb://
+     if (surl.startsWith(QLatin1String("smb:/"))) {
+-        if (surl.length() == 5) // just the above
+-            return kurl; // unchanged
+-
++        if (surl.length() == 5) {
++            return QUrl("smb://");
++        }
+         if (surl.at(5) != '/') {
+             surl = "smb://" + surl.mid(5);
+             qCDebug(KIO_SMB) << "checkURL return1 " << surl << " " << QUrl(surl);
+             return QUrl(surl);
+         }
+     }
++    if (surl == QLatin1String("smb://")) {
++        return kurl; //unchanged
++    }
+ 
+-    // smb:/ normaly have no userinfo
++    // smb:// normally have no userinfo
+     // we must redirect ourself to remove the username and password
+     if (surl.contains('@') && !surl.contains("smb://")) {
+         QUrl url(kurl);
+@@ -202,7 +206,7 @@
+         return url;
+     }
+ 
+-    // no emtpy path
++    //if there's a valid host, don't have an empty path
+     QUrl url(kurl);
+ 
+     if (url.path().isEmpty())
+@@ -396,7 +400,7 @@
+                    udsentry.insert(KIO::UDSEntry::UDS_ACCESS, (S_IRUSR | S_IXUSR | S_IRGRP | S_IXGRP | S_IROTH | S_IXOTH));
+ 
+                    // QString workgroup = m_current_url.host().toUpper();
+-                   QUrl u("smb:/");
++                   QUrl u("smb://");
+                    u.setHost(dirpName);
+ 
+                    // when libsmbclient knows
+@@ -423,7 +427,7 @@
+                udsentry.insert(KIO::UDSEntry::UDS_MIME_TYPE, QString::fromLatin1("application/x-smb-workgroup"));
+ 
+                // QString workgroup = m_current_url.host().toUpper();
+-               QUrl u("smb:/");
++               QUrl u("smb://");
+                u.setHost(dirpName);
+                udsentry.insert(KIO::UDSEntry::UDS_URL, u.url());
+ 
+diff --git a/smb/kio_smb_internal.cpp b/smb/kio_smb_internal.cpp
+--- a/smb/kio_smb_internal.cpp
++++ b/smb/kio_smb_internal.cpp
+@@ -121,7 +121,7 @@
+         return m_type;
+     }
+ 
+-    if (path(QUrl::FullyDecoded) == "/")
++    if (path().isEmpty() || path(QUrl::FullyDecoded) == "/")
+     {
+         if (host().isEmpty())
+             m_type = SMBURLTYPE_ENTIRE_NETWORK;
+
