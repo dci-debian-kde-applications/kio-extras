@@ -59,7 +59,8 @@ Description: Extra functionality for kioslaves.
 
 Package: kio-extras-data
 Architecture: all
-Depends: ${misc:Depends}, ${shlibs:Depends}
+Depends: ${misc:Depends},
+         ${perl:Depends}.
 Breaks: kactivities, kio-mtp (<< 0.75+git20140304-1ubuntu1~), ${kde-l10n:all}
 Replaces: kactivities, kio-mtp (<< 0.75+git20140304-1ubuntu1~), ${kde-l10n:all}
 Description: Extra functionality for kioslaves data files.
