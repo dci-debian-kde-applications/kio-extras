@@ -34,7 +34,7 @@ Build-Depends: cmake (>= 2.8.12~),
                pkg-config,
                pkg-kde-tools (>= 0.15.18~),
                qtbase5-dev (>= 5.5.0~),
-               qtwebengine5-dev (>= 5.7.0~),
+               qtwebengine5-dev (>= 5.7.0~) [amd64 arm64 armhf i386 mipsel],
                shared-mime-info,
 Standards-Version: 4.1.1
 Homepage: https://projects.kde.org/projects/kde/workspace/kio-extras

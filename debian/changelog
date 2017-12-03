@@ -10,6 +10,8 @@ kio-extras (4:17.08.3-0r1) UNRELEASED; urgency=medium
   * In kio-extras-data, remove the unused ${shlibs:Depends} substvar, and use
     ${perl:Depends}.
   * Update lintian overrides.
+  * Limit the qtwebengine5-dev build dependency only to the architectures
+    where it is available: amd64 arm64 armhf i386 mipsel.
 
  -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 03 Dec 2017 19:53:53 +0100
 
