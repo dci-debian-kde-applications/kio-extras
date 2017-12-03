@@ -1,2 +1,4 @@
-kio-extras: package-name-doesnt-match-sonames libkioarchive5 libmolletnetwork5-5
-kio-extras: binary-without-manpage usr/bin/ktrash5
+# private library
+kio-extras: package-name-doesnt-match-sonames libkioarchive5 libmolletnetwork5-17
+# private library
+kio-extras: no-symbols-control-file
